@@ -1,11 +1,13 @@
-.container{
-    display:flex; /* or inline-flex */
-    height:100vh;
+.column{
+    min-height:50vh;
+    color:white;
+    display:flex;
+    flex-direction:column; /*row | column | row-reverse | column-reverse */
+    margin-bottom: 10%;
 }
 .box{
     font-size:90px;
     padding:20px;
-    color:white;
     text-align: center;
 }
 .box1{

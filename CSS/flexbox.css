@@ -1,14 +1,16 @@
-.column{
+.container{
     min-height:50vh;
     color:white;
     display:flex;
-    flex-direction:column; /*row | column | row-reverse | column-reverse */
     margin-bottom: 10%;
+    flex-wrap: wrap; /* nowrap | wrap | wrap-reverse*/
+    flex-direction:column;
 }
 .box{
     font-size:90px;
     padding:20px;
     text-align: center;
+ width:200px;
 }
 .box1{
     background-color: rgb(60, 221, 11);

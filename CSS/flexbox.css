@@ -1,31 +1,32 @@
 .container{
-    min-height:50vh;
-    color:white;
     display:flex;
-    margin-bottom: 10%;
-    flex-wrap: wrap; /* nowrap | wrap | wrap-reverse*/
-    flex-direction:column;
+    color:white;
 }
 .box{
     font-size:90px;
     padding:20px;
     text-align: center;
- width:200px;
+    flex:1;
 }
 .box1{
     background-color: rgb(60, 221, 11);
+    order:1; /*<integer>*/
 }
 .box2{
     background-color: rgb(248, 244, 10);
+    order:3;
 }
 .box3{
     background-color: rgb(30, 7, 133);
+    order:-2;
 }
 .box4{
     background-color: rgb(255, 7, 152);
+    order:-1;
 }
 .box5{
     background-color: rgb(248, 105, 10);
+    order:2;
 }
 .box6{
     background-color: rgb(10, 14, 248);

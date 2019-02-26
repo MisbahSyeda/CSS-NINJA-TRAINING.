@@ -1,0 +1,122 @@
+body{
+    font-family:  'Laila', serif;
+}
+.resume-container{
+    display:flex;
+    margin-bottom:1vw;
+}
+.box-res{
+    flex:1;
+}
+.box1{
+    background-color: #3377ff;
+    border:2px groove black;
+    flex:1;
+    box-shadow:2px 2px 5px black;
+}
+.resume{
+    flex:2;
+    font-weight: bold;
+    text-align:center;
+    padding-top:5px;
+    color: #1a66ff;
+    text-shadow: 1px 1px 1px black;
+    font-size:20px;
+}
+.box2{
+    background-color: #3377ff;
+    border:2px groove black;
+    flex-grow:8;
+    box-shadow:2px 2px 5px black;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.info-container{
+    display:flex;
+    flex-wrap: wrap;  
+}
+.left-box{
+    padding:5px;
+    background-color: #e6eeff;
+    flex:3;
+    flex-shrink:3;
+    box-shadow: 2px 2px 10px black;
+    margin:5px;
+}
+.right-box{
+    flex-shrink:3;
+    flex:7;
+    padding:5px;
+    background-color: rgb(230, 236, 255,0.2);
+}
+.image{
+    width: 150px;
+    height:150px;
+    border-radius: 100px;
+    border:5px solid #1a66ff;
+    align-self: center;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+}
+.same-width{
+        display:inline-block;
+        width:200px;
+        padding-top:1vw;     
+}
+.left-bar{
+    border:2px groove black;
+    font-weight: bold;
+    color:white;
+    padding:5px;
+    background-color: #3377ff;
+    margin:10px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow:2px 2px 5px black;
+}
+.right-bar{
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    color:white;
+    background-color: #3377ff;
+    padding:5px;
+    border:2px groove black;
+    box-shadow:2px 2px 5px black;
+    margin:10px;
+}
+.box{
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background-color: #0044cc;
+    border-radius: 5px;
+}
+.white-box{
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background-color: #b8b894	;
+    border-radius: 5px;
+
+}
+.myname{
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+b{
+    color:#0044cc;
+}
+.icon{
+    display:inline-block;
+    margin:5px;
+}
+.skils-box{
+    margin:0;
+}

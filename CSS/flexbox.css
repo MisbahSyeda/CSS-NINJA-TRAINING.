@@ -1,26 +1,30 @@
 .container{
     display:flex;
     color:white;
-    justify-content:space-evenly; /* flex-start | flex-end | center | space-between | space-around | space-evenly*/
-    flex-direction: column;
+    flex-direction: row;
     min-height:100vh;
+    align-items:flex-start;
+    border:10px solid mistyrose;
 }
 .box{
     font-size:20px;
     padding:20px;
-    text-align: center;   
+    text-align: center; 
+    width:33%;  
 }
 .box1{
     background-color: rgb(60, 221, 11);
 }
 .box2{
     background-color: rgb(248, 244, 10);
+    align-self: stretch; /* auto | flex-start | flex-end | center | baseline | stretch*/
 }
 .box3{
     background-color: rgb(30, 7, 133);
 }
 .box4{
     background-color: rgb(255, 7, 152);
+    align-self:center; /* auto | flex-start | flex-end | center | baseline | stretch*/
 }
 .box5{
     background-color: rgb(248, 105, 10);

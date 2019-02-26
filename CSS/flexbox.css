@@ -1,10 +1,7 @@
 .container{
     display:flex;
     color:white;
-    flex-direction: row;
     min-height:100vh;
-    align-content: center; /* flex-start | flex-end | center | space-between | space-around | stretch*/
-    flex-wrap: wrap;
     border:10px solid mistyrose;
 }
 .box{
@@ -15,6 +12,7 @@
 }
 .box1{
     background-color: rgb(60, 221, 11);
+    flex:2;
 }
 .box2{
     background-color: rgb(248, 244, 10);
@@ -24,12 +22,14 @@
 }
 .box4{
     background-color: rgb(255, 7, 152);
+    flex:3;
 }
 .box5{
     background-color: rgb(248, 105, 10);
 }
 .box6{
     background-color: rgb(10, 14, 248);
+    flex:5;
 }
 .box7{
     background-color: rgb(248, 105, 10);
